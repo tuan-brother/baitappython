@@ -1,0 +1,112 @@
+Câu 1:2 giá trị của biểu thức Boolen là True,False
+--cách viết là viết hoa chữ cái đầu T,F các chữ cái tiếp theo viết thường
+Câu 2:What are the three Boolean operators?
+--3 biểu thức Boolean :and,or,not
+Câu 3:Write out the truth tables of each Boolean operator (that is, 
+every possible combination of Boolean values for the operator and what they evaluate to).
+--The and Operator’s Truth Table
+
+Expression		Evaluates to . . 
+True and True		True
+
+True and False		False
+	
+False and True		False
+
+False and False		False
+
+-- The or Operator’s Truth Table
+
+Expression		Evaluates to . . 
+True or True		True
+
+True or False		True
+	
+False or True		True
+
+False or False		False
+
+--The not Operator’s Truth Table
+
+Expression		Evaluates to . . 
+not True		False
+
+not False		True
+Câu 4: What do the following expressions evaluate to?
+Expression			    Evaluates to . . .
+(5 > 4) and (3 == 5)		    False
+not (5 > 4)			    Flase
+(5 > 4) or (3 == 5)		    True
+not ((5 > 4) or (3 == 5))	    False
+(True and True) and (True == False) False
+(not False) or (not True)	    True
+Câu 5:What are the six comparison operators?
+==    Equal to
+
+!=    Not equal to
+
+<     Less than
+
+>     Greater than
+
+<=    Less than or equal to
+
+>=    Greater than or equal to
+
+
+Câu 6: What is the difference between the equal to operator and the assignment operator?
+-toán tử bằng so sánh hai giá trị hoặc biến hoặc biểu thức có bằng nhau không
+-toán tử gán là gán giá trị cho một biến
+Câu 7: Explain what a condition is and where you would use one.
+
+Câu 8:Identify the three blocks in this code:
+spam = 0
+#khối lệnh 1
+if spam == 10:
+    print('eggs')
+    #khối lệnh 2
+    if spam > 5:
+        print('bacon')
+    #khối lệnh 3
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+Câu 9:Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! 
+if anything else is stored in spam.
+
+print('Nhập vào spam')
+spam=input()
+#khôi lệnh
+if int(spam) == 1:
+    print('Hello')
+elif int(spam) == 2:
+    print('Howdy')
+else:
+    print('Greeting')
+
+Câu 10:
+Câu 11:What is the difference between break and continue?
+--break:thoát ra khỏi vòng lặp
+--continue:khi gặp câu lệnh continue thì chương trình quay lại điểm bắt đầu của vòng lặp và
+đánh giá lại điều kiện.
+
+Câu 12:What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+--range(n):hàm trả về một chuỗi các con số từ 0->n-1,bắt đầu từ 0 và mặc định tăng thêm 1 sau mỗi lần lấy giá trị
+--range(a,n):hàm trả về một chuỗi các con số có phạm vi từ a->n-1 và mặc định tăng thêm 1 sau mỗi lần lấy giá trị 
+--range(a,n,k):hàm trả về một chuỗi các con số có phạm vi từ a->n-1 ,
+bắt đầu từ a và tăng lên mỗi lên k sau mỗi lần lấy giá trị
+
+Câu 13:Write a short program that prints the numbers 1 to 10 using a for loop. 
+Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+#for
+for i in range(1,11):
+ print(i)
+
+#while
+i=1
+while i<11:
+ print(str(i))
+ i=i+1
+
+Câu 14:

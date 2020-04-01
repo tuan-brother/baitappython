@@ -1,0 +1,29 @@
+Câu 1:Which of the following are operators, and which are values?
+operator:*,-,+,/
+values:'hello',-88.8,5
+
+2:Which of the following is a variable, and which is a string?
+--variable:spam
+--string:'spam'
+Bài 3:Name three data types.
+--three data types:int ,string,float
+Bài 4:What is an expression made up of? What do all expressions do?
+--Biểu thức gồm :biến ,toán tử;
+
+Bài 5:This chapter introduced assignment statements, like spam = 10. What is the difference between an expression and a statement?
+--Biểu thức gồm :biến ,toán tử;
+--phép gán là gán giá trị cho biến;
+Bài 6:20
+//20+1 đây không phải là gán giá trị mới cho bacon
+Bài 7:What should the following two expressions evaluate to?
+--'spam'+'spamspam':Cộng hai chuỗi
+--'spam'*3:sao chép chuỗi
+
+Bài 8:Why is eggs a valid variable name while 100 is invalid?
+--vì variable không thể bắt đầu bằng số
+
+Bài 9:What three functions can be used to get the integer, floating-point number, or string version of a value?
+--three funtions:int(),float(),str()
+
+Bài 10:Why does this expression cause an error? How can you fix it?
+--biểu thức lỗi bởi vì cộng chuỗi với số nguyên->sửa lỗi 'I have eaten'+str(99)+'burritos'
